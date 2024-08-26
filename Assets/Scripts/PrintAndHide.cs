@@ -8,6 +8,8 @@ public class ConsolePrint : MonoBehaviour
     [SerializeField]
     private GameObject gameObj;
 
+    public Renderer rend;
+
     private int i;
     // Start is called before the first frame update
     void Start()
